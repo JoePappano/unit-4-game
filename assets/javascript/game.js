@@ -50,6 +50,14 @@ $(".add").on("click", function(event) {
         $("#wins").text("Wins: " + wins)
         compGuess = (Math.ceil(Math.random() * 120))
         $("#compGuess").text(compGuess)
+        button1Guess = (Math.ceil(Math.random() * 12))
+        $("#button1").attr("x", button1Guess)
+        button2Guess = (Math.ceil(Math.random() * 12))
+        $("#button2").attr("x", button2Guess);
+        button3Guess = (Math.ceil(Math.random() * 12))
+        $("#button3").attr("x", button3Guess)
+        button4Guess = (Math.ceil(Math.random() * 12))
+        $("#button4").attr("x", button4Guess)
         totalNum = 0;
         $("#totalNum").text("Total: " + totalNum);
 
@@ -61,9 +69,16 @@ $(".add").on("click", function(event) {
         $("#losses").text("Losses: " + losses)
         compGuess = (Math.ceil(Math.random() * 120))
         $("#compGuess").text(compGuess)
+        button1Guess = (Math.ceil(Math.random() * 12))
+        $("#button1").attr("x", button1Guess)
+        button2Guess = (Math.ceil(Math.random() * 12))
+        $("#button2").attr("x", button2Guess);
+        button3Guess = (Math.ceil(Math.random() * 12))
+        $("#button3").attr("x", button3Guess)
+        button4Guess = (Math.ceil(Math.random() * 12))
+        $("#button4").attr("x", button4Guess)
         totalNum = 0;
         $("#totalNum").text("Total: " + totalNum);
     }
     
 })
-
