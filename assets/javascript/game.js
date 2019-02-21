@@ -64,7 +64,7 @@ $(".add").on("click", function(event) {
     } 
     
     if (totalNum > compGuess) {
-        alert("You lose, you loser!")
+        alert("You lose!")
         losses++;
         $("#losses").text("Losses: " + losses)
         compGuess = (Math.ceil(Math.random() * 120))
